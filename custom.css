@@ -1,0 +1,72 @@
+/*Form*/
+
+#form {
+  padding: 40px;
+  margin-top:30px;
+}
+
+#form h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#text-input {
+  border: 0;
+  height: 80px;
+  border-bottom: 3px solid #333;
+  font-size: 30px;
+  width: 100%;
+  margin-top:30px;
+  border-radius: 0;
+}
+#name-input {
+  border: 0;
+  height: 60px;
+  border-bottom: 3px solid #333;
+  font-size: 30px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 0;
+}
+#email-input {
+  border: 0;
+  height: 60px;
+  border-bottom: 3px solid #333;
+  font-size: 30px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 0;
+}
+
+#submit {
+    border: 3px solid #333;
+    padding: 10px 16px 9px;
+    color: #333;
+    margin-top: 25px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 0;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s sease-in-out;
+}
+
+#submit:hover {
+    border: 3px solid #333;
+    padding: 10px 16px 9px;
+    color: #fff;
+    background-color: #333;
+}
+
+input,
+input:focus,
+input:hover,
+input:active,
+textarea,
+textarea:focus,
+textarea:hover,
+textarea:active {
+  outline: 0;
+}
+
