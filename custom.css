@@ -1,72 +1,41 @@
-/*Form*/
 
-#form {
+body {
   padding: 40px;
-  margin-top:30px;
 }
 
-#form h1 {
-  font-size: 50px;
-  text-align: center;
+
+#name-input, #email-input,
+#name-input:focus, #email-input:focus {
+  width: 200px;
+  height: 40px;
+  outline: 0;
+  margin-right: 5px;
+  font-size: 17px;
+  border-radius: 2px;
+  padding: 8px;
+  border: 1px solid #d2d2d2;
 }
 
-#text-input {
-  border: 0;
-  height: 80px;
-  border-bottom: 3px solid #333;
-  font-size: 30px;
-  width: 100%;
-  margin-top:30px;
-  border-radius: 0;
-}
-#name-input {
-  border: 0;
-  height: 60px;
-  border-bottom: 3px solid #333;
-  font-size: 30px;
-  width: 100%;
-  margin-top: 25px;
-  border-radius: 0;
-}
-#email-input {
-  border: 0;
-  height: 60px;
-  border-bottom: 3px solid #333;
-  font-size: 30px;
-  width: 100%;
-  margin-top: 25px;
-  border-radius: 0;
+#text-input, 
+#text-input:focus {
+  width: 410px;
+  height: 100px;
+  outline: 0;
+  margin-top: 12px;
+  font-size: 17px;
+  border-radius: 2px;
+  padding: 8px;
+  border: 1px solid #d2d2d2;
 }
 
 #submit {
-    border: 3px solid #333;
-    padding: 10px 16px 9px;
-    color: #333;
-    margin-top: 25px;
-    font-size: 21px;
-    font-weight: 500;
-    background-color: #fff;
-    border-radius: 0;
-  -webkit-transition: all .15s ease-in-out;
-       -o-transition: all .15s ease-in-out;
-          transition: all .15s sease-in-out;
+  padding: 9px 14px;
+  background: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
 }
 
 #submit:hover {
-    border: 3px solid #333;
-    padding: 10px 16px 9px;
-    color: #fff;
-    background-color: #333;
+  background: #f7f7f7;
+  cursor: pointer;
 }
-
-input,
-input:focus,
-input:hover,
-input:active,
-textarea,
-textarea:focus,
-textarea:hover,
-textarea:active {
-  outline: 0;
-}
-
